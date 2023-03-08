@@ -14,34 +14,34 @@
     --round: 100px;
     --image: var(--soft);
     
-    --background-color: #8f19d8;
+    --background-color: #840d8d;
 
-    --text-color: rgb(39, 198, 198);
+    --text-color: rgb(254, 239, 218);
     
     --light: var(--background);
     --dark: var(--text-color);
 }
 
 
-
-
-body, html {
-    padding: 10px;
-    background: var(--background-color);
-    color: var(--text-color);
-    font-family: Arial, sans-serif;
-}
-
 .name-title-pic {
+    padding: 9%;
+    color: var(--text-color);
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
     margin: auto;
-    margin-top: 6%;
     text-align: center;
     font-family: 'Courier New';
 }
 
+#title-name {
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
 h1 {
     font-size: 60px;
-    text-shadow: 0px 0px 14px black;
+    text-shadow: 0px 0px 25px black;
     margin-bottom: 0%;
 }
 
@@ -52,15 +52,57 @@ h2 {
 }
 
 img {
-    width: 20%;
-    border-radius: calc(var(--image) * 2);
-    border: 4px solid var(--text-color);
+    width: 25%;
+    border-radius: calc(var(--image) * 3);
+    border: 8px solid var(--text-color);
+    animation: shake 0.3s ease-in-out 5;
 }
 
-a {
-    color: rgb(100, 234, 255);
+@keyframes shake {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(5px, -5px);
+    }
+    40% {
+        transform: translate(5px, 5px);
+    }
+    60% {
+        transform: translate(-5px, 5px);
+    }
+    80% {
+        transform: translate(-5px, -5px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+
+.experience{
+    font-family: 'Courier New';
+    padding: 15%;
+    background-color: #be30c8;
+    color: aquamarine;
+    position: relative; /* make the position of the container relative */
+}
+
+h3 {
+    color: rgb(241, 230, 230);
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute; /* make the position of the h3 element absolute */
+    top: 6%; /* position the top edge of the h3 element at the top edge of the container */
+    left: 3%; /* position the left edge of the h3 element at the left edge of the container */
+    margin: 0; /* remove margin from the h3 element */
+    padding: 10px; /* add some padding to the h3 element */
 }
 
 ::placeholder {
     color: var(--text);
+}
+
+a {
+    color: rgb(100, 234, 255);
 }
