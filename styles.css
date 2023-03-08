@@ -124,6 +124,7 @@ ul {
 }
 
 .bottom-of-page {
+    text-align: center;
     font-weight: bold;
     color: rgb(100, 234, 237);
     background-color: #d884de;
