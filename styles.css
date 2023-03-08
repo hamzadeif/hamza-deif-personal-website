@@ -55,7 +55,7 @@ img {
     width: 25%;
     border-radius: calc(var(--image) * 3);
     border: 8px solid var(--text-color);
-    animation: shake 0.3s ease-in-out 5;
+    animation: shake 0.3s ease-in-out 3;
 }
 
 @keyframes shake {
@@ -82,27 +82,53 @@ img {
 
 .experience{
     font-family: 'Courier New';
-    padding: 15%;
+    padding: 21%;
     background-color: #be30c8;
     color: aquamarine;
     position: relative; /* make the position of the container relative */
 }
 
-h3 {
-    color: rgb(241, 230, 230);
-    font-size: 30px;
+.experience-text {
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Courier New', monospace;
+    font-size: 32px;
     font-weight: bold;
-    position: absolute; /* make the position of the h3 element absolute */
-    top: 6%; /* position the top edge of the h3 element at the top edge of the container */
-    left: 3%; /* position the left edge of the h3 element at the left edge of the container */
-    margin: 0; /* remove margin from the h3 element */
-    padding: 10px; /* add some padding to the h3 element */
+    color: #be30c8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border: 2px solid #be30c8;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 2%;
+    margin: 0;
+    transform: translate(8px, -50%);
+  }
+
+ul {
+    margin-top: 0; /* remove the default margin from the top */
+    margin-bottom: 10px; /* add some margin between the <p> and <ul> elements */
 }
 
-::placeholder {
-    color: var(--text);
+.company-name {
+    font-size: 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.bottom-of-page {
+    font-weight: bold;
+    color: rgb(100, 234, 237);
+    background-color: #d884de;
+    padding: 1%;
+}
 a {
     color: rgb(100, 234, 255);
 }
