@@ -161,6 +161,8 @@ ul {
     float: right;
     margin-left: 20%;
     margin-top: 0.5;
+    border: 4px solid rgb(152, 207, 152);
+    border-radius: 10px;
 }
 
 .skills {
