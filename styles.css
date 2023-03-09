@@ -51,12 +51,13 @@ h2 {
     text-shadow: 0px 0px 11px black;
 }
 
-img {
+.face-pic {
     width: 25%;
     border-radius: calc(var(--image) * 3);
     border: 8px solid var(--text-color);
     animation: shake 0.3s ease-in-out 3;
 }
+
 
 @keyframes shake {
     0% {
@@ -82,7 +83,7 @@ img {
 
 .experience{
     font-family: 'Courier New';
-    padding: 21%;
+    padding: 22%;
     background-color: #be30c8;
     color: aquamarine;
     position: relative; /* make the position of the container relative */
@@ -123,13 +124,82 @@ ul {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+
+.education{
+    position: relative;
+    margin: 0;
+    background-color: #f1a8f6;
+    padding: 2%;
+}
+
+.education-text {
+    display: flex;
+    align-items: center;
+    
+}
+
+.calpoly {
+    margin-top: 2%;
+    font-size: 30px;
+    color: rgb(152, 207, 152);
+    font: bold;
+    text-shadow: -1px -1px 0 rgb(27, 58, 37), 1px -1px 0 rgb(27, 58, 37), -1px 1px 0 rgb(27, 58, 37), 1px 1px 0 rgb(27, 58, 37);
+    margin-bottom: 1%;
+}
+
+.major {
+    margin-top: 0%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.cp-img {
+    width: 20%;
+    float: right;
+    margin-left: 20%;
+    margin-top: 0.5;
+}
+
+.skills {
+    position: relative;
+    margin: 0;
+    background-color: #fbc5ff;
+    padding: 2%;
+}
+
+.languages {
+    color: #be30c8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.langs {
+    font-size: 26px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.dev-tools {
+    color: #be30c8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tools {
+    font-size: 17px;
+    text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+}
+
 .bottom-of-page {
     text-align: center;
     font-weight: bold;
-    color: rgb(100, 234, 237);
-    background-color: #d884de;
+    color: white;
+    background-color: #e28eca;
     padding: 1%;
 }
+
 a {
-    color: rgb(100, 234, 255);
+    color: white;
 }
