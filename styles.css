@@ -194,6 +194,31 @@ ul {
     text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
 }
 
+.games {
+    font-weight: bold;
+    color: white;
+    background-color: #a444d888;
+    padding: 1%;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -2px 2px 0 #000, 1px 1px 0 #000;
+    margin-top: 15px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+#game-list {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
 .bottom-of-page {
     text-align: center;
     font-weight: bold;
